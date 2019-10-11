@@ -87,3 +87,22 @@ ps aux  = This lsts all the Processes
 ps aux | grep vagrant
 
 kill <proccess id>
+
+
+#### To kill use kill and process
+
+
+
+## Sending process in the background
+
+
+## Process in foreground
+  sleep 100
+
+#### Process in the background
+
+  sleep 100 &
+
+  ps aux | grep sleep
+
+  kill 2472
